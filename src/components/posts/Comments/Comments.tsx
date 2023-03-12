@@ -61,7 +61,6 @@ const Comments: React.FC<CommentsProps> = ({
   const bg = useColorModeValue("white", "#1A202C");
   const lineBorderColor = useColorModeValue("gray.100", "#171923");
 
-  //console.log(comments);
 
   const fetchRedditUser = async (userId: any) => {
     if (!userId) return;

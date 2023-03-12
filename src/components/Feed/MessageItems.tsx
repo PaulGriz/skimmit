@@ -133,12 +133,10 @@ function MessageItems({ message, userId }: Props) {
                     bg={secondBg}
                     px={2}
                     py={1}
-                    //borderRadius={12}
                     borderBottomRightRadius={12}
                     borderBottomLeftRadius={12}
                     borderTopLeftRadius={12}
                     maxWidth="65%"
-                    //border="1px solid"
                   >
                     <Text fontWeight="medium">{decryptedData.messageBody}</Text>
                   </Box>
@@ -147,12 +145,10 @@ function MessageItems({ message, userId }: Props) {
                     bg={bg}
                     px={2}
                     py={1}
-                    //borderRadius={12}
                     borderBottomRightRadius={12}
                     borderBottomLeftRadius={12}
                     borderTopRightRadius={12}
                     maxWidth="65%"
-                    //border="1px solid"
                   >
                     <Text fontWeight="medium">{decryptedData.messageBody}</Text>
                   </Box>

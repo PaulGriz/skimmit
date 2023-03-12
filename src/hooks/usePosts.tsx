@@ -30,7 +30,6 @@ const usePosts = () => {
     communityId: string
   ) => {
     event.stopPropagation();
-    // check user ?
 
     if (!user?.uid) {
       setAuthModalState({ open: true, view: "login" });

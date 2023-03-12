@@ -50,6 +50,15 @@
 
 
 
+## Known Issues
+
+- Aware of the `Import declaration conflicts with local declaration of 'TabItem'` within `src/components/posts/NewPostForm.tsx`
+
+
+
 ## Attribution
 
-The inital project is based the work from [Shadee Merhi](https://github.com/shadeemerhi). Link to repo: https://github.com/shadeemerhi/reddit-clone-yt
+The inital project is based the work from [Shadee Merhi](https://github.com/shadeemerhi). Links: 
+
+- Repo: https://github.com/shadeemerhi/reddit-clone-yt
+- Youtube video: https://youtu.be/rCm5RVYKWVg

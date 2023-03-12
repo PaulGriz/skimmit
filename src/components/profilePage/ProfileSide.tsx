@@ -139,7 +139,6 @@ function ProfileSide({}: Props) {
         ml="auto"
         mr="auto"
         height="30px"
-        // bg="brand.100"
         bgGradient="linear(to-r, brand.100, brand.100, yellow.500)"
         _hover={{
           bgGradient: "linear(to-r, brand.100, brand.100, yellow.500)",

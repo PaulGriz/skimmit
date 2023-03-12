@@ -34,7 +34,6 @@ function MessagesHeader({ conversationId, member }: Props) {
       >
         Back
       </Button>
-      {/* {loading && <SkeletonLoader count={1} height="30px" width="320px" />} */}
 
       {conversationId && (
         <Stack direction="column" spacing="0.5">

@@ -49,7 +49,6 @@ const Button: ComponentStyleConfig = {
 
 
 
-// 2. Call `extendTheme` and pass your custom values
 export const theme = extendTheme({
   initialColorMode: "system",
   useSystemColorMode: true,

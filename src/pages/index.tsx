@@ -5,7 +5,7 @@ import {
   limit,
   orderBy,
   query,
-  where,
+  where
 } from "firebase/firestore";
 import { motion } from "framer-motion";
 import type { NextPage } from "next";

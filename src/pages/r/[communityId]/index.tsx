@@ -20,7 +20,6 @@ type CommunityProps = {
 };
 
 const CommunityPage: React.FC<CommunityProps> = ({ communityData }) => {
-  //console.log(communityData);
   const setCommunityStateValue = useSetRecoilState(CommunityState);
 
   useEffect(() => {

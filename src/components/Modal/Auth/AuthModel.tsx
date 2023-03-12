@@ -21,7 +21,6 @@ import OAuthButtons from "./OAuthButtons";
 import ResetPassword from "./ResetPassword";
 
 const AuthModel: React.FC = () => {
-  //const { isOpen, onOpen, onClose } = useDisclosure();
   const [modelState, setModelState] = useRecoilState(authModelState);
   const [user, loading, error] = useAuthState(auth);
 
@@ -34,7 +33,6 @@ const AuthModel: React.FC = () => {
 
   useEffect(() => {
     if (user) handleClose();
-    //console.log(user, "🔥🔥");
   }, [user]);
 
   return (

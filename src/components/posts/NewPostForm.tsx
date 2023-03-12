@@ -78,7 +78,6 @@ const NewPostForm: React.FC<NewPostFormProps> = ({
     title: "",
     body: "",
   });
-  //const [selectedFile, setSelectedFile] = useState<string>();
   const { selectedFile, setSelectedFile, onSelectedFile } = useSelectFile();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
