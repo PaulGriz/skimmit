@@ -36,7 +36,7 @@
 
 1. Contact a student from the group for a copy of the `.env` file
 
-2. Please read the [CONTRIBUTING.md](../CONTRIBUTING.md) file for more information. 
+2. Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information. 
 
     
 
